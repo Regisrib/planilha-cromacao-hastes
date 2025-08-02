@@ -1,9 +1,15 @@
+body {
+    background-color: rgb(4, 4, 191);
+}
+
 th{
+     background-color: rgb(188, 186, 186);
     text-align: center;
     border: 1px black solid;
 }
 
 td{
+    background-color: white;
     text-align: center;
     border: 1px black solid;
 }
