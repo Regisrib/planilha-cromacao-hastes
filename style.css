@@ -1,5 +1,18 @@
+
+
 body {
     background-color: rgb(4, 4, 191);
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+input{
+    width: 55px;
+    margin: 15px 0 15px 2px;
+    border-radius: 3px;
 }
 
 th{
