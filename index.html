@@ -9,40 +9,46 @@
 </head>
 <body>
   <h1>Cromação de hastes</h1>
-  <input type="text">
-  <input type="button" value="Buscar">
-<table>
+  <input type="number">
+  <input class="botao" type="button" value="Buscar">
+  <table>
   <thead>
+    <section>
     <tr>
-      <th>Codigo hastes</th><th>Diâmetro da hastes</th><th>Camada de cromo minima em micra</th><th>Compr. Cromado Máximo</th><th>Compr. Cromado Mínimo</th><th>Diâmetro Mín</th><th>Diãmetro max</th><th>Amperagem +/- 10%</th><th>Tempo de Cromo +/- 1 minuto</th><th>Hastes por Rack</th><th>Rosca Cromada</th><th>Haste de Referência</th><th>Desenho</th>
+      <th class="code">Codigo hastes</th><th>Diâmetro da hastes</th><th>Camada de cromo minima em micra</th><th>Compr. Cromado Máximo</th><th>Compr. Cromado Mínimo</th><th>Diâmetro Max</th><th>Diãmetro min</th><th class="code">Amperagem +/- 10%</th><th class="code">Tempo de Cromo +/- 1 minuto</th><th>Hastes por Rack</th><th class="code">Rosca Cromada</th><th>Haste de Referência</th><th>Desenho</th>
     </tr>
   </thead>
   <tbody>
-    <tr class="cinza"><td>018<strong>1439</strong></td><td>22</td><td>12</td><td>198,0</td><td>199,1</td><td>21,990</td><td>21,973</td><td>5000</td><td>20</td><td>47</td><td>NÃO</td><td></td><td>QETAM09619</td></tr>
-    <tr class="branco"><td>018<strong>1480</strong></td><td>20</td><td>10</td><td>231,1</td><td>232,2</td><td>19,990</td><td>19,973</td><td>4800</td><td>13</td><td>47</td><td>SIM</td><td></td><td>QETAM09619</td></tr>
-    <tr class="cinza"><td>018<strong>1506</strong></td><td>20</td><td>12</td><td>222,2</td><td>223,3</td><td>19,990</td><td>19,973</td><td>4250</td><td>13</td><td>47</td><td>SIM</td><td></td><><td></td></tr>
-    <tr class="branco"><td>018<strong>1514</strong></td><td>20</td><td>10</td><td>233,0</td><td>234,1</td><td>19,990</td><td>19,993</td><td>4500</td><td>14</td><td>47</td><td>SIM</td><td><td></td></td></tr>
-    <tr class="cinza"><td>018<strong>1522</strong></td><td>20</td><td>10</td><td>221,0</td><td>222,1</td><td>19,990</td><td>19,993</td><td>4600</td><td>13</td><td>47</td><td>SIM</td><td></td><td>QETAM09972</td></tr>
-    <tr class="branco"><td>018<strong>1544</strong></td><td>20</td><td>12</td><td>203,1</td><td>204,2</td><td>19,990</td><td>19,993</td><td>3950</td><td>17</td><td>47</td><td>SIM</td><td></td><td></td></tr>
-    <tr class="cinza"><td>018<strong>1548</strong></td><td>20</td><td>12</td><td>321,2</td><td>322,3</td><td>19,990</td><td>19,993</td><td>5000</td><td>14</td><td>47</td><td>SIM</td><td></td><td></td></tr>
-    <tr class="branco"><td>018<strong>1589</strong></td><td>20</td><td>15</td><td>227,4</td><td>228,5</td><td>19,990</td><td>19,993</td><td>5000</td><td>20</td><td>47</td><td>NÃO</td><td></td><td></td></tr>
-    <tr class="cinza"><td>018<strong>1619</strong></td><td>20</td><td>12</td><td>238,4</td><td>239,5</td><td>19,990</td><td>19,993</td><td>5000</td><td>22</td><td>47</td><td>NÃO</td><td></td><td></td></tr>
-    <tr class="branco"><td>018<strong>1620</strong></td><td>20</td><td>12</td><td>240,2</td><td>241,3</td><td>19,990</td><td>19,993</td><td>5000</td><td>22</td><td>47</td><td>NÃO</td><td></td><td></td></tr>
-    <tr class="cinza"><td>018<strong>1629</strong></td><td>22</td><td>15</td><td>248,6</td><td>249,7</td><td>21,990</td><td>21,993</td><td>5000</td><td>17</td><td>47</td><td>SIM</td><td></td><td></td></tr>
-    <tr class="branco"><td>018<strong>1647</strong></td><td>20</td><td>12</td><td>288,3</td><td>289,4</td><td>19,990</td><td>19,993</td><td>5000</td><td>17</td><td>47</td><td>NÃO</td><td></td><td></td></tr>
-    <tr class="cinza"><td>018<strong>1648</strong></td><td>20</td><td>10</td><td>203,0</td><td>204,1</td><td>19,990</td><td>19,993</td><td>4950</td><td>13</td><td>47</td><td>NÃO</td><td></td><td></td></tr>
-    <tr class="branco"><td>018<strong>1649</strong></td><td>20</td><td>12</td><td>321,2</td><td>322,3</td><td>19,990</td><td>19,993</td><td>5000</td><td>22</td><td>47</td><td>NÃO</td><td></td><td></td></tr>
-    <tr class="cinza"><td>018<strong>1650</strong></td><td>20</td><td>10</td><td>219,5</td><td>220,6</td><td>19,990</td><td>19,993</td><td>4600</td><td>13</td><td>47</td><td>SIM</td><td></td><td>QETAM10328</td></tr>
-    <tr class="branco"><td>018<strong>1663</strong></td><td>20</td><td>10</td><td>279,0</td><td>280,1</td><td>21,990</td><td>21,993</td><td>5000</td><td>26</td><td>47</td><td>SIM</td><td></td><td></td></tr>
-    <tr class="cinza"><td>018<strong>1675</strong></td><td>22</td><td>15</td><td>227,7</td><td>228,8</td><td>21,990</td><td>21,993</td><td>4700</td><td>16</td><td>47</td><td>SIM</td><td></td><td></td></tr>
-    <tr class="branco"><td>018<strong>1707</strong></td><td>20</td><td>10</td><td>218,0</td><td>219,1</td><td>19,990</td><td>19,993</td><td>4550</td><td>13</td><td>47</td><td>SIM</td><td></td><td>QETAM09972</td></tr>
-    <tr class="cinza"><td>018<strong>1709</strong></td><td>20</td><td>10</td><td>233,0</td><td>231,1</td><td>19,990</td><td>19,993</td><td>4500</td><td>13</td><td>47</td><td>SIM</td><td></td><td></td></tr>
-    <tr class="branco"><td>018<strong>1710</strong></td><td>22</td><td>12</td><td>253,8</td><td>254,9</td><td>21,990</td><td>21,993</td><td>5000</td><td>27</td><td>47</td><td>NÃO</td><td></td><td></td></tr>
-    <tr class="cinza"><td>018<strong>1711</strong></td><td>22</td><td>12</td><td>243,8</td><td>244,9</td><td>21,990</td><td>21,993</td><td>5000</td><td>27</td><td>47</td><td>NÃO</td><td></td><td></td></tr>
-    <tr class="branco"><td>018<strong>1712</strong></td><td>22</td><td>12</td><td>269,8</td><td>270,9</td><td>21,990</td><td>21,993</td><td>5000</td><td>27</td><td>47</td><td>NÃO</td><td></td><td></td></tr>
-    <tr class="cinza"><td>018<strong>1713</strong></td><td>22</td><td>12</td><td>280,3</td><td>281,4</td><td>21,990</td><td>21,993</td><td>5000</td><td>28</td><td>47</td><td>NÃO</td><td></td><td></td></tr>
-    <tr class="branco"><td>018<strong>1714</strong></td><td>22</td><td>15</td><td>238,0</td><td>239,1</td><td>21,990</td><td>21,993</td><td>5000</td><td>25</td><td>47</td><td>NÃO</td><td></td><td></td></tr>
+    <tr class="cinza"><td>018<strong class="code">1439</strong></td><td>22</td><td>12</td><td>198,0</td><td>199,1</td><td>21,990</td><td>21,973</td><td>5000</td><td>20</td><td>47</td><td>NÃO</td><td></td><td>QETAM09619</td></tr>
+    <tr class="branco"><td>018<strong class="code">1480</strong></td><td>20</td><td>10</td><td>231,1</td><td>232,2</td><td>19,990</td><td>19,973</td><td>4800</td><td>13</td><td>47</td><td>SIM</td><td></td><td>QETAM09619</td></tr>
+    <tr class="cinza"><td>018<strong class="code">1506</strong></td><td>20</td><td>12</td><td>222,2</td><td>223,3</td><td>19,990</td><td>19,973</td><td>4250</td><td>13</td><td>47</td><td>SIM</td><td></td><><td></td></tr>
+    <tr class="branco"><td>018<strong class="code">1514</strong></td><td>20</td><td>10</td><td>233,0</td><td>234,1</td><td>19,990</td><td>19,993</td><td>4500</td><td>14</td><td>47</td><td>SIM</td><td><td></td></td></tr>
+    <tr class="cinza"><td>018<strong class="code">1522</strong></td><td>20</td><td>10</td><td>221,0</td><td>222,1</td><td>19,990</td><td>19,993</td><td>4600</td><td>13</td><td>47</td><td>SIM</td><td></td><td>QETAM09972</td></tr>
+    <tr class="branco"><td>018<strong class="code">1544</strong></td><td>20</td><td>12</td><td>203,1</td><td>204,2</td><td>19,990</td><td>19,993</td><td>3950</td><td>17</td><td>47</td><td>SIM</td><td></td><td></td></tr>
+    <tr class="cinza"><td>018<strong class="code">1548</strong></td><td>20</td><td>12</td><td>321,2</td><td>322,3</td><td>19,990</td><td>19,993</td><td>5000</td><td>14</td><td>47</td><td>SIM</td><td></td><td></td></tr>
+    <tr class="branco"><td>018<strong class="code">1589</strong></td><td>20</td><td>15</td><td>227,4</td><td>228,5</td><td>19,990</td><td>19,993</td><td>5000</td><td>20</td><td>47</td><td>NÃO</td><td></td><td></td></tr>
+    <tr class="cinza"><td>018<strong class="code">1619</strong></td><td>20</td><td>12</td><td>238,4</td><td>239,5</td><td>19,990</td><td>19,993</td><td>5000</td><td>22</td><td>47</td><td>NÃO</td><td></td><td></td></tr>
+    <tr class="branco"><td>018<strong class="code">1620</strong></td><td>20</td><td>12</td><td>240,2</td><td>241,3</td><td>19,990</td><td>19,993</td><td>5000</td><td>22</td><td>47</td><td>NÃO</td><td></td><td></td></tr>
+    <tr class="cinza"><td>018<strong class="code">1629</strong></td><td>22</td><td>15</td><td>248,6</td><td>249,7</td><td>21,990</td><td>21,993</td><td>5000</td><td>17</td><td>47</td><td>SIM</td><td></td><td></td></tr>
+    <tr class="branco"><td>018<strong class="code">1647</strong></td><td>20</td><td>12</td><td>288,3</td><td>289,4</td><td>19,990</td><td>19,993</td><td>5000</td><td>17</td><td>47</td><td>NÃO</td><td></td><td></td></tr>
+    <tr class="cinza"><td>018<strong class="code">1648</strong></td><td>20</td><td>10</td><td>203,0</td><td>204,1</td><td>19,990</td><td>19,993</td><td>4950</td><td>13</td><td>47</td><td>NÃO</td><td></td><td></td></tr>
+    <tr class="branco"><td>018<strong class="code">1649</strong></td><td>20</td><td>12</td><td>321,2</td><td>322,3</td><td>19,990</td><td>19,993</td><td>5000</td><td>22</td><td>47</td><td>NÃO</td><td></td><td></td></tr>
+    <tr class="cinza"><td>018<strong class="code">1650</strong></td><td>20</td><td>10</td><td>219,5</td><td>220,6</td><td>19,990</td><td>19,993</td><td>4600</td><td>13</td><td>47</td><td>SIM</td><td></td><td>QETAM10328</td></tr>
+    <tr class="branco"><td>018<strong class="code">1663</strong></td><td>20</td><td>10</td><td>279,0</td><td>280,1</td><td>21,990</td><td>21,993</td><td>5000</td><td>26</td><td>47</td><td>SIM</td><td></td><td></td></tr>
+    <tr class="cinza"><td>018<strong class="code">1675</strong></td><td>22</td><td>15</td><td>227,7</td><td>228,8</td><td>21,990</td><td>21,993</td><td>4700</td><td>16</td><td>47</td><td>SIM</td><td></td><td></td></tr>
+    <tr class="branco"><td>018<strong class="code">1707</strong></td><td>20</td><td>10</td><td>218,0</td><td>219,1</td><td>19,990</td><td>19,993</td><td>4550</td><td>13</td><td>47</td><td>SIM</td><td></td><td>QETAM09972</td></tr>
+    <tr class="cinza"><td>018<strong class="code">1709</strong></td><td>20</td><td>10</td><td>233,0</td><td>231,1</td><td>19,990</td><td>19,993</td><td>4500</td><td>13</td><td>47</td><td>SIM</td><td></td><td></td></tr>
+    <tr class="branco"><td>018<strong class="code">1710</strong></td><td>22</td><td>12</td><td>253,8</td><td>254,9</td><td>21,990</td><td>21,993</td><td>5000</td><td>27</td><td>47</td><td>NÃO</td><td></td><td></td></tr>
+    <tr class="cinza"><td>018<strong class="code">1711</strong></td><td>22</td><td>12</td><td>243,8</td><td>244,9</td><td>21,990</td><td>21,993</td><td>5000</td><td>27</td><td>47</td><td>NÃO</td><td></td><td></td></tr>
+    <tr class="branco"><td>018<strong class="code">1712</strong></td><td>22</td><td>12</td><td>269,8</td><td>270,9</td><td>21,990</td><td>21,993</td><td>5000</td><td>27</td><td>47</td><td>NÃO</td><td></td><td></td></tr>
+    <tr class="cinza"><td>018<strong class="code">1713</strong></td><td>22</td><td>12</td><td>280,3</td><td>281,4</td><td>21,990</td><td>21,993</td><td>5000</td><td>28</td><td>47</td><td>NÃO</td><td></td><td></td></tr>
+    <tr class="branco"><td>018<strong class="code">1714</strong></td><td>22</td><td>15</td><td>238,0</td><td>239,1</td><td>21,990</td><td>21,993</td><td>5000</td><td>25</td><td>47</td><td>NÃO</td><td></td><td></td></tr>
   </tbody>
 </table>
+</section>
+<script src="script.js"></script>
+<footer>
+
+</footer>
 </body>
 </html>
