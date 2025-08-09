@@ -1,0 +1,55 @@
+body{
+    background-color: blue;
+}
+
+h1{
+    background-color:rgb(17, 17, 158) ;
+    color: white;
+    width: 500px;
+    margin: 30px auto;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+}
+
+section{
+    margin: auto;
+    text-align: center;
+}
+
+
+a{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
+
+div{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    margin:  auto 50px auto;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 8px;
+    text-align: center;
+    align-content: center;
+    box-shadow: 5px 5px 5px black;
+    font-size: 1.5rem;
+}
+
+div:hover{
+    background-color:rgb(17, 17, 158) ;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    padding: 30px;
+}

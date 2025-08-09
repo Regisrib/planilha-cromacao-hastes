@@ -1,0 +1,89 @@
+*{
+    font-family: bolder;
+}
+body{
+    background-color: rgb(4, 4, 191);
+}
+
+h1{
+
+    width: 350px;
+    background-color:rgb(17, 17, 158) ;
+    color: white;
+    text-align: center;
+    margin: 50px auto;
+    box-shadow: 5px 5px 10px black;
+    text-shadow: 5px 5px 7px black;
+    
+}
+
+th{
+    background-color: rgb(142, 141, 141);
+    text-align: center;
+    border: 1px black solid;
+    border-radius: 0px 9px ;
+    box-shadow: 5px 5px 6px black;
+}
+
+td{
+    background-color: white;
+    text-align: center;
+    border: 1px black solid;
+}
+
+table{
+    margin: auto;
+    align-content: center;
+}
+
+section{
+    background-color:white ;
+    width: 320px;
+    margin: auto;
+    padding: 5px;
+    border-radius: 7px;
+    background-color: silver;
+    box-shadow: 5px 5px 5px black;
+}
+
+a{
+    padding: 3px;
+    font-size: 1.5rem;
+    width: 70px;
+    color: blue;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+}
+
+a:hover{
+    
+    background-color: rgb(75, 75, 211);
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.code {
+    background-color:rgb(17, 17, 158) ;
+    color: white;
+} 
+
+tr.cinza {
+    background-color:silver ;
+}
+
+td{
+    font-weight: bold;
+}
+
+
+
+footer {
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    padding: 50px;
+}
