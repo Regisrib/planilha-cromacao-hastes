@@ -20,32 +20,36 @@ section{
 
 
 a{
-    color: black;
+    
+    color: white;
     font-size: 1.5rem;
     font-weight: bold;
     text-decoration: none;
 }
 
 a:hover{
-    color: white;
+    color:rgb(17, 17, 158) ;
 }
 
 div{
     width: 150px;
     height: 150px;
-    background-color: white;
+    color: white;
     margin:  auto 50px auto;
+    margin-bottom: 20px;
     padding: 20px;
     display: inline-block;
-    border-radius: 8px;
+    border-radius: 100%;
     text-align: center;
     align-content: center;
     box-shadow: 5px 5px 5px black;
     font-size: 1.5rem;
+    background: linear-gradient(black, rgb(17, 17, 158),rgb(17, 17, 158), black );
 }
 
 div:hover{
-    background-color:rgb(17, 17, 158) ;
+    background: linear-gradient(black, rgba(175, 171, 171, 0.8), rgba(175, 171, 171, 0.8), black );
+     color: rgb(17, 17, 158);
 }
 
 footer{
