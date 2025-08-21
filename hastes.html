@@ -64,7 +64,27 @@
   </tbody>
 </table>
 </section>
-<script src="script.js"></script>
+
+  <script>
+    function procurarLinha() {
+      let numero = document.getElementById("numero").value;
+      let linhas = document.querySelectorAll("#tabela tr");
+
+      // remove seleção antiga
+      linhas.forEach(l => l.classList.remove("selecionado"));
+
+      for (let linha of linhas) {
+        let celulas = linha.querySelectorAll("td");
+        for (let cel of celulas) {
+          if (cel.innerText === numero || cel.querySelector("input")?.value === numero) {
+            linha.classList.add("selecionado"); // destaca a linha inteira
+            return; // para no primeiro achado
+          }
+        }
+      }
+      alert("Número não encontrado!");
+    }
+  </script>
 <footer>
 <p>&COPY;Regis Ribeiro</p>
 </footer>
